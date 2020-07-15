@@ -193,13 +193,33 @@ i {
         width: 95%;
     }
 
+    h1 {
+        font-size: 3em;
+    }
+
+    h4 {
+        font-size: 1.4em;
+    }
+
+    p {
+        line-height: 1.8em;
+        font-size: 1.2em;
+    }
+
     .right {
         padding: 0 0;
     }
 
     .portf-img {
+        height: 45em;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .portf-img {
         height: 35em;
-        padding-top: 2em;
     }
 
 }
@@ -213,19 +233,6 @@ i {
 
     .left {
         width: 90%;
-    }
-
-    h1 {
-        font-size: 3em;
-    }
-
-    h4 {
-        font-size: 1.4em;
-    }
-
-    p {
-        line-height: 1.8em;
-        font-size: 1.2em;
     }
 
     .right {
