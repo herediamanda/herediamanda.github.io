@@ -158,26 +158,8 @@ i {
         padding-left: 30%;
     }
 
-    .label, .date, .role, .company, .description, .skill {
-        font-size: 1.2em;
-        padding-bottom: 1em;
-    }
-
     .left {
         width: 50%;
-    }
-
-    h1 {
-        font-size: 3em;
-    }
-
-    h4 {
-        font-size: 1.3em;
-    }
-
-    p {
-        line-height: 1.8em;
-        font-size: 1.2em;
     }
 
 }
@@ -212,6 +194,11 @@ i {
 
     .portf-img {
         height: 45em;
+    }
+
+    .label, .date, .role, .company, .description, .skill {
+        font-size: 1.2em;
+        padding-bottom: 1em;
     }
 
 }
@@ -344,6 +331,10 @@ i {
 }
 
 @media only screen and (max-width: 375px) {
+
+    html, body {
+        padding-left: 2%;
+    }
 
     .left {
         width: 100%;
