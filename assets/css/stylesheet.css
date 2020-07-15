@@ -151,15 +151,68 @@ i {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 1024px) {
 
-    body {
-        margin: 20% 5%;
-        width: 100%;
+@media only screen and (max-width: 1700px) {
+
+    .right {
+        padding-left: 30%;
+    }
+
+    .label, .date, .role, .company, .description, .skill {
+        font-size: 1.2em;
+        padding-bottom: 1em;
+    }
+
+    .left {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+
+    p {
+        line-height: 1.8em;
+        font-size: 1.2em;
+    }
+
+}
+
+
+@media only screen and (max-width: 1500px) {
+
+    html, body {
+        margin: 10% 5%;
     }
 
     .left {
         width: 95%;
+    }
+
+    .right {
+        padding: 0 0;
+    }
+
+    .portf-img {
+        height: 35em;
+        padding-top: 2em;
+    }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    html, body {
+        margin: 10% 5%;
+    }
+
+    .left {
+        width: 90%;
     }
 
     h1 {
@@ -185,20 +238,25 @@ i {
     }
 
     .portf-img {
+        height: 30em;
+        padding-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .portf-img {
         height: 25em;
-        padding-top: 2em;
+        padding-top: 0;
     }
 
 }
 
 @media only screen and (max-width: 768px) {
     
-    body {
+    html, body {
         margin: 15% 5%;
-    }
-
-    .left {
-        width: 95%;
     }
 
     h1 {
@@ -224,20 +282,20 @@ i {
     }
 
     .portf-img {
-        height: 20em;
-        padding-top: 2em;
+        height: 23em;
+        padding-top: 0;
     }
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
 
     html, body {
         margin: 15% 5%;
     }
 
     .left {
-        width: 95%;
+        width: 100%;
     }
 
     h1 {
@@ -251,7 +309,7 @@ i {
     p, .description {
         line-height: 1.8em;
         font-size: 0.80em;
-        width: 95%;
+        width: 85%;
     }
 
     .workline, .linebreak {
@@ -272,28 +330,43 @@ i {
         padding-top: 0;
     }
 
-}
-
-@media only screen and (max-width: 320px) {
-
-    html, body {
-        margin: 15% 5%;
+    .workline, .linebreak {
+        width: 90%;
     }
 
-    .portf-img {
-        height: 11em;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .left {
+        width: 100%;
+    }
+
+    .workline, .linebreak {
+        width: 95%;
     }
 
     h4 {
         font-size: 0.7em;
     }
 
+    .portf-img {
+        height: 11.5em;
+        padding-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+
+    .portf-img {
+        height: 10.5em;
+    }
+
     p, .description {
         width: 85%;
     }
 
-    .workline, .linebreak {
-        width: 95%;
-    }
 
 }
